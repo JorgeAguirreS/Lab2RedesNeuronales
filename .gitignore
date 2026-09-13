@@ -1,0 +1,74 @@
+# Contexto y material de referencia local
+/CONTEXTO_FINAL_LAB2_MNIST_FASHION_CNN.md
+/referencias_clase/
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno y configuracion privada
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Bytecode y caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Archivos locales y checkpoints de Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Datasets locales y pesos generados por los experimentos
+/data/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Empaquetado y compilacion de Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Resultados de cobertura de pruebas
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Configuracion local de editores
+.vscode/
+.idea/
+*.iml
+
+# Logs, archivos temporales y copias de respaldo
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Se conservan en Git los notebooks, reportes, PDF y requirements.txt.
