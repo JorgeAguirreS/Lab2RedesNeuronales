@@ -1,5 +1,5 @@
 # Reporte — Laboratorio 2: MNIST, Fashion-MNIST y CNN
-
+https://github.com/JorgeAguirreS/Lab2RedesNeuronales
 **Método.** Se verificaron los cuatro archivos locales con np.load. Cada archivo train se dividió
 en 48 000 imágenes de entrenamiento y 12 000 de validación (20 %, estratificación y random_state=42);
 los tests de 10 000 imágenes quedaron separados. Se usaron píxeles/255, etiquetas long,
